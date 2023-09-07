@@ -13,7 +13,7 @@ namespace Uppgift_arv
         }
         public int Circumferance()
         {
-            int circumferance = (int)Math.Sqrt((width*width)+(height*height));
+            int circumferance = (int)Math.Sqrt((width*width)+(height*height))+height+width;
             return circumferance;
         }
     }
