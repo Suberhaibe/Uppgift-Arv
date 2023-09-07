@@ -10,16 +10,5 @@ namespace Uppgift_arv
             height = Height;
             width = Width;
         }
-        public int Height
-        {
-            set{height=value;}
-            get{return height;}
-        }
-
-        public int Width
-        {
-            set{width=value;}
-            get{return width;}
-        }
     }
 }
