@@ -10,5 +10,14 @@ namespace Uppgift_arv
             height = Height;
             width = Width;
         }
+
+        public virtual int Area()
+        {
+            return 0;
+        }
+        public virtual int Circumferance()
+        {
+            return 0;
+        }
     }
 }

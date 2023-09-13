@@ -6,12 +6,12 @@ namespace Uppgift_arv
         {
         }
 
-        public int Area()
+        public override int Area()
         {
             int area = (width*height)/2;
             return area;
         }
-        public int Circumferance()
+        public override int Circumferance()
         {
             int circumferance = (int)Math.Sqrt((width*width)+(height*height))+height+width;
             return circumferance;

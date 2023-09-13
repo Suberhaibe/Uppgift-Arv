@@ -9,7 +9,7 @@ int val = int.Parse(Console.ReadLine());
 if (val == 2)
 {
     Console.WriteLine("Skriv höjd och bredd på var enda linje");
-    Rectangle p1 = new Rectangle(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+    Shape p1 = new Rectangle(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine())); //
 
     Console.WriteLine("Area är: " +p1.Area()+ ".");
     Console.WriteLine("Omkrets är: " +p1.Circumferance()+ ".");
@@ -26,4 +26,3 @@ else
 {
     Console.WriteLine("Välj mellan 1 eller 2");
 }
-

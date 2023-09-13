@@ -6,12 +6,12 @@ namespace Uppgift_arv
         {
         }
 
-        public int Area()
+        public override int Area()
         {
             int area = width*height;
             return area;
         }
-        public int Circumferance()
+        public override int Circumferance()
         {
             int circumferance = (width*2)+(height*2);
             return circumferance;
