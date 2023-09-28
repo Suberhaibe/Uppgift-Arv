@@ -22,4 +22,4 @@ else
 }
 
     Console.WriteLine("Area är: " +shape.Area()+ ".");
-    Console.WriteLine("Omkrets är: " +shape.Circumferance()+ ".");
+    Console.WriteLine("Omkrets är: " +shape.Circumferance()+ "."); //theba
